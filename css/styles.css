@@ -106,6 +106,14 @@ width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+/* contact */
 
+.contact{
+  background-image: url(../images/c_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
 }
