@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(event){
   $('#design-details, #dev-details, #mgt-details').hide();
   
   $('#design-img').click(function(){
@@ -77,5 +77,13 @@ $(document).ready(function(){
     $('#proj8').fadeOut();
   });
 
+  $('.contact-form').submit(function(){
+    let name = $('#name').val();
+    let email = $('#email').val();
+    let message = $('#message').val();
+    alert("Hey" + ' ' + name +' '+' ' + "Your message has been recieved & Thank you for reaching out to us. We will get back to you via" + ' ' + email) 
+  });
+
+  event.preventDefault();
   
 });
