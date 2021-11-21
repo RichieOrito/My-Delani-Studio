@@ -45,6 +45,8 @@ section{
 
 .mouse-scroll{
   margin-top: 5rem;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 /* About */
@@ -116,4 +118,16 @@ width: 100%;
   background-position: center;
   background-repeat: no-repeat;
  
+}
+
+/* footer */
+.icons{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.footer-text{
+  text-align: center;
+  margin-top: 2rem;
 }
