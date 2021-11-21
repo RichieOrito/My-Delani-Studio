@@ -69,3 +69,21 @@ section{
 .services h2{
   text-transform: uppercase;
 }
+
+/* what we do */
+.we-do{
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+.we-do h2{
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.wedo-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+  gap: 1.8rem;
+  align-items: center;
+}
