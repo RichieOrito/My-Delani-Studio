@@ -52,3 +52,20 @@ section{
   text-align: center;
   color: #000000;
 }
+
+.about h2{
+  text-transform: uppercase;
+}
+
+/* services */
+
+.services{
+  text-align: center;
+  color: #ffffff;
+  background-image: url("../images/s_image.jpg");
+}
+
+
+.services h2{
+  text-transform: uppercase;
+}
