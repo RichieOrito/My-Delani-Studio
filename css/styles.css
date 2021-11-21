@@ -9,7 +9,7 @@
 }
 
 section{
-  padding: 50px 10%;
+  padding: 40px 6%;
 }
 
 /* Home */
@@ -45,4 +45,10 @@ section{
 
 .mouse-scroll{
   margin-top: 5rem;
+}
+
+/* About */
+.about{
+  text-align: center;
+  color: #000000;
 }
