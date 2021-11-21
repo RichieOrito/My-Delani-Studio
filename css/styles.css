@@ -95,19 +95,26 @@ section{
 width: 100%;
 }
 
-#proj1{
-  position: absolute;
-  color: black;
-  text-decoration: underline;
-  width: 245px;
-  height: 200px;
-  font-weight: 800;
-  text-align: center;
-  background-color:black;
-  /* rgba(255, 255, 255, 0.8); */
+#proj1,
+#proj2,
+#proj3,
+#proj4,
+#proj5,
+#proj6,
+#proj7,
+#proj8 {
   display: flex;
   justify-content: center;
+  position: absolute;
   align-items: center;
+  height: 32%;
+  width: 19.2%;
+  color: #000000;
+  background-color:#ffffff;
+  text-decoration: underline black;
+  font-weight: 800;
+  font-size: 1.5rem;
+
 }
 
 /* contact */
@@ -117,8 +124,14 @@ width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- 
+  min-width: 100%;
 }
+
+.contact input::placeholder,.contact textarea::placeholder{
+  color: #ffffff;
+  opacity: 1;
+}
+
 
 /* footer */
 .icons{
