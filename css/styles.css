@@ -45,10 +45,19 @@ section{
 
 .mouse-scroll{
   margin-top: 5rem;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation: bounce 3s infinite ;
 }
-
+@keyframes bounce{
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-100px); }
+  50%  { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+/* @keyframes bounce{
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-100px); }
+  100% { transform: translateY(0); }
+} */
 /* About */
 .about{
   text-align: center;
@@ -90,9 +99,17 @@ section{
   align-items: center;
 }
 
+.box{
+  cursor: pointer;
+}
+
 /* portfolio */
 .col-md-6 img{
 width: 100%;
+}
+
+.portfolio{
+  cursor: pointer;
 }
 
 #proj1,
@@ -138,6 +155,7 @@ width: 100%;
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  cursor: pointer;
 }
 
 .footer-text{
