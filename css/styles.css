@@ -23,6 +23,7 @@ section{
   color: #ffffff;
   text-align: center;
   line-height: 6rem;
+  display: grid;
 }
 
 .home-logo{
