@@ -31,7 +31,7 @@ it on your own repository.
 
 * An access to the Internet
 
-[Go Back to the top](#akan-name)
+[Go Back to the top](#delani-studio)
 ## Technology Used
 * HTML 5 - which was used to build the structure of the pages.
 
