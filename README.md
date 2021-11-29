@@ -22,8 +22,8 @@ It also returns to the user a thank you feedback when ya user feels in the form<
 ## Installation
 
 * Open Termina [ctrl+Alt+T]()
-* Git clone-Run git init in your own repo at the terminal then type git clone and add-https://github.com/RichieOrito/Akan-Names
-* Git fork-Enter your own repository and search https://github.com/RichieOrito/Akan-Names then click on fork to add
+* Git clone-Run git init in your own repo at the terminal then type gh repo clone RichieOrito/My-Delani-Studio
+* Git fork-Enter your own repository and search https://github.com/RichieOrito/My-Delani-Studio then click on fork to add
 it on your own repository.
 
 ### Requirements
